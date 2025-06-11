@@ -1,0 +1,52 @@
+/* Container for the accordion section */
+.accordion-container {
+  margin-top: 30px;
+}
+
+/* Accordion root styling */
+.MuiAccordion-root {
+  margin-bottom: 25px;
+  box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.177); /* Subtle shadow for a lifted effect */
+  border: none; /* Remove default border */
+  border-radius: 12px; /* Slightly rounded corners */
+  overflow: hidden; /* Ensure rounded corners are visible */
+}
+
+/* Accordion summary styling */
+.MuiAccordionSummary-root {
+  background-color: #ffffff;
+  border-bottom: 23px solid #ffffff; /* Light grey bottom border */
+  padding: 0 16px; /* Add padding to align content */
+  min-height: 66px; /* Minimum height for better spacing */
+}
+
+.MuiAccordionSummary-content {
+  margin: 22px 0;
+}
+
+.MuiAccordionSummary-expandIconWrapper {
+  color: #333; /* Dark grey color for the expand icon */
+}
+
+/* Accordion details styling */
+.MuiAccordionDetails-root {
+  background-color: #f9f9f9; /* Slightly off-white for contrast */
+  padding: 16px; /* Padding for the content */
+}
+
+/* Typography styling */
+.MuiTypography-root {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333; /* Dark grey color for the text */
+}
+
+.MuiTypography-h6 {
+  color: #465166; /* Adjust color to match your design */
+  font-weight: 600; /* Make the question text bold */
+}
+
+/* Override for the accordion details text color */
+.MuiAccordionDetails-root .MuiTypography-body1 {
+  color: #666; /* Slightly lighter grey for the details text */
+}

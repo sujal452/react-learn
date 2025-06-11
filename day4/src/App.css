@@ -1,0 +1,91 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Subtle gray for clean UI */
+    color: #343a40; /* Dark gray for text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* App Container */
+  .app-container {
+    text-align: center;
+    background-color: #ffffff; /* White background for form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  /* Heading */
+  h1 {
+    font-size: 1.8rem;
+    color: #007bff; /* Professional blue tone */
+    margin-bottom: 20px;
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  /* Label */
+  .form-label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+  
+  /* Input */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da; /* Light border for input */
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .form-input:focus {
+    border-color: #007bff; /* Highlighted border on focus */
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background-color: #007bff; /* Blue button */
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Message */
+  .message {
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .message.valid {
+    color: #28a745; /* Green for valid message */
+  }
+  
+  .message.invalid {
+    color: #dc3545; /* Red for invalid message */
+  }
+  

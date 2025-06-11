@@ -1,0 +1,96 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background for modern look */
+    color: #343a40; /* Neutral dark color for text */
+  }
+  
+  /* App Container */
+  .app-container {
+    text-align: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Heading */
+  .app-heading {
+    font-size: 2rem;
+    color: #212529; /* Darker gray for emphasis */
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Add Record Button */
+  .add-record-btn {
+    background-color: #007bff; /* Bootstrap blue for professionalism */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .add-record-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  /* Table Container */
+  .table-container {
+    margin: 20px auto;
+    overflow-x: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Teacher Table */
+  .teacher-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px; /* Rounded edges for modern design */
+    overflow: hidden;
+  }
+  
+  .teacher-table th,
+  .teacher-table td {
+    text-align: left;
+    padding: 12px 20px;
+    border: 1px solid #dee2e6; /* Light border for subtle separation */
+  }
+  
+  .teacher-table th {
+    background-color: #343a40; /* Neutral dark for header */
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .teacher-table tr:nth-child(even) {
+    background-color: #f8f9fa; /* Alternating row color for readability */
+  }
+  
+  .teacher-table tr:hover {
+    background-color: #e9ecef; /* Slightly darker hover color */
+    cursor: pointer;
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    background-color: #dc3545; /* Bootstrap red for delete */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+  }
+  
+  .delete-btn:hover {
+    background-color: #b52a37; /* Darker red on hover */
+    transform: scale(1.05);
+  }
+  

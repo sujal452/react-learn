@@ -1,0 +1,105 @@
+/* General container styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa; /* Subtle light gray for better contrast */
+  margin: 0;
+  padding: 0;
+  color: #212529; /* Neutral dark gray for text */
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333333;
+  font-weight: bold;
+}
+
+/* Main container for accordion */
+.container {
+  max-width: 800px;
+  margin: 40px auto; /* Increased top margin for better spacing */
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow for elegance */
+}
+
+/* Accordion summary header */
+.MuiAccordionSummary-root {
+  background-color: #007bff; /* Updated to professional blue */
+  color: #ffffff;
+  padding: 12px 16px; /* Added balanced padding */
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.MuiAccordionSummary-root:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.MuiAccordionSummary-content {
+  margin-left: 12px; /* Consistent spacing for text */
+}
+
+.MuiAccordionSummary-expandIconWrapper {
+  color: #ffffff;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+/* Accordion details content */
+.MuiAccordionDetails-root {
+  background-color: #e9ecef; /* Light gray with a modern feel */
+  padding: 20px;
+  color: #495057;
+  font-size: 16px;
+  line-height: 1.6;
+  border-left: 4px solid #007bff; /* Accent border for emphasis */
+  border-radius: 0 0 8px 8px;
+}
+
+/* Button styles */
+.MuiButton-root {
+  margin-right: 8px;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, box-shadow 0.2s ease;
+}
+
+.MuiButton-root:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Spacing for Accordion Actions */
+.MuiAccordionActions-root {
+  justify-content: flex-end;
+  padding: 12px 16px;
+  background-color: #f1f1f1; /* Subtle background for actions */
+  border-top: 1px solid #dee2e6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+
+  .MuiAccordionSummary-root {
+    font-size: 16px;
+  }
+
+  .MuiAccordionDetails-root {
+    font-size: 14px;
+    padding: 16px;
+  }
+}
+
